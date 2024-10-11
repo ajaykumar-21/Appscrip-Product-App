@@ -1,0 +1,28 @@
+.navContainer {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.navWrapper {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 35px;
+  gap: 150px;
+}
+
+.logoWrapper {
+  display: flex;
+  gap: 15px;
+}
+
+.detailsWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  padding-top: 35px;
+  font-weight: 600;
+}
