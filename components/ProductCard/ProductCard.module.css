@@ -1,0 +1,48 @@
+.productCard {
+  width: 300px;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.cardDetails {
+  width: 100%;
+  height: 80px;
+  padding-top: 20px;
+}
+
+.cardTitle {
+  font-family: Simplon Norm;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+.description {
+  font-family: Simplon Norm;
+  font-size: 14px;
+  font-weight: 400;
+  width: 220px;
+  padding-top: 10px;
+  line-height: 16.8px;
+  text-align: left;
+  color: #888792;
+}
+
+.signIn {
+  color: blue;
+  cursor: pointer;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* height: 30px; */
+}
