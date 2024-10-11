@@ -21,7 +21,7 @@ function ProductCard({ product }) {
             to see pricing
           </div>
           <div style={{ cursor: "pointer" }}>
-            <Image src={heart} />
+            <Image src={heart} alt="Heart Icon" />
           </div>
         </div>
       </div>
