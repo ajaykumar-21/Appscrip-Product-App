@@ -65,7 +65,7 @@ function Footer() {
             EU Compliances Docs
           </p>
         </div>
-        <div>
+        <div className={styles.marginTop}>
           <h3 style={{ marginBottom: "15px" }}>QUICK LINKS</h3>
           <p style={{ marginBottom: "10px", opacity: ".7" }}>
             Orders & Shipping
@@ -85,7 +85,7 @@ function Footer() {
             Terms & Conditions
           </p>
         </div>
-        <div>
+        <div className={styles.marginTop}>
           <h3>FOLLOW US</h3>
           <div className={styles.socialIcon}>
             <div>

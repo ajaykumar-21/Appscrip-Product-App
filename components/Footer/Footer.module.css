@@ -119,5 +119,32 @@
   line-height: 16.8px;
   text-align: center;
   padding-top: 30px;
-  opacity: .7;
+  opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  .container {
+    height: auto;
+    padding-left: 10px;
+  }
+  .contactSection {
+    display: flex;
+    flex-direction: column;
+  }
+  .input {
+    width: 250px;
+  }
+  .subscribeButton {
+    width: 100px;
+  }
+  .wrapper {
+    margin-bottom: 20px;
+  }
+  .socialSection {
+    display: flex;
+   flex-direction: column;
+  }
+  .marginTop{
+    margin-top: 20px;
+  }
 }
