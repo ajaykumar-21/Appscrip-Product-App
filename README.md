@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# E-commerce Appscrip Product App
+
+This is a fully responsive **E-commerce Appscrip Product App** built using **Next.js (App Router)** with features like Server-Side Rendering (SSR), dynamic routing, SEO optimization, and mock API integration. The app showcases a product listing page and individual product detail pages.
+
+## Features
+
+- **Server-Side Rendering (SSR)**: All product data is fetched server-side using SSR for better performance and SEO.
+- **Dynamic Routing**: The app uses Next.js dynamic routing to create individual product detail pages.
+- **Responsive Design**: The product layout is responsive, adjusting for mobile, tablet, and desktop devices using plain CSS.
+- **SEO Optimization**: Includes SEO-friendly features like page titles, meta descriptions, image alt text, and schema settings.
+- **Mock API Integration**: The app fetches product data from a mock API.
+
+## Technologies Used
+
+- **Next.js**: For building the React-based framework with App Router and SSR support.
+- **React.js**: For building the user interface components.
+- **CSS**: Plain CSS is used for responsive layouts and styling.
+- **HTML & JSX**: Used to create structured pages and components.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js (version 16+)
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository:
+
+````bash
+git clone https://github.com/ajaykumar-21/Appscrip-Product-App.git
+
+2. Navigate to the project directory:
 
 ```bash
+cd ecommerce-product-listing
+
+3. Install the dependencies:
+
+```bash
+npm install
+
+To start the development server, run:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+To build the app for production, run:
+npm run build
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Then, to start the production server:
+npm run start
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
