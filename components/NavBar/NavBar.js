@@ -12,23 +12,47 @@ function NavBar() {
     <div className={styles.navContainer}>
       <div className={styles.navWrapper}>
         <div>
-          <Image src={starLogo} alt="Star Logo" />
+          <Image
+            src={starLogo}
+            alt="Star Logo"
+            style={{ width: "auto", height: "auto" }}
+          />
         </div>
         <div style={{ paddingLeft: "50px" }}>
-          <Image src={Logo} alt="Logo" />
+          <Image
+            src={Logo}
+            alt="Logo"
+            style={{ width: "auto", height: "auto" }}
+          />
         </div>
         <div className={styles.logoWrapper}>
           <div>
-            <Image src={Search} alt="Search" />
+            <Image
+              src={Search}
+              alt="Search"
+              style={{ width: "auto", height: "auto" }}
+            />
           </div>
           <div>
-            <Image src={Heart} alt="Heart" />
+            <Image
+              src={Heart}
+              alt="Heart"
+              style={{ width: "auto", height: "auto" }}
+            />
           </div>
           <div>
-            <Image src={ShoppingBag} alt="Shopping Bag" />
+            <Image
+              src={ShoppingBag}
+              alt="Shopping Bag"
+              style={{ width: "auto", height: "auto" }}
+            />
           </div>
           <div>
-            <Image src={Profile} alt="Profile" />
+            <Image
+              src={Profile}
+              alt="Profile"
+              style={{ width: "auto", height: "auto" }}
+            />
           </div>
         </div>
       </div>

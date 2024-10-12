@@ -12,10 +12,10 @@ import Zero from "../../assets/zeroPay.svg";
 
 function Footer() {
   return (
-    <div className={styles.container}>
+    <footer className={styles.container}>
       <div className={styles.contactSection}>
-        <div>
-          <div className={styles.subscribeHeading}>BE THE FIRST TO KNOW</div>
+        <section>
+          <h2 className={styles.subscribeHeading}>BE THE FIRST TO KNOW</h2>
           <p className={styles.subscribeDescrption}>
             Sign up for updates from mettā muse.
           </p>
@@ -27,16 +27,16 @@ function Footer() {
             />
             <button className={styles.subscribeButton}>SUBSCRIBE</button>
           </div>
-        </div>
-        <div>
-          <div className={styles.contactUS}>CONTACT US</div>
+        </section>
+        <section>
+          <h2 className={styles.contactUS}>CONTACT US</h2>
           <p style={{ marginBottom: "10px", opacity: ".7" }}>
             +44 221 133 5360
           </p>
           <p style={{ marginBottom: "10px", opacity: ".7" }}>
             customercare@mettamuse.com
           </p>
-          <div className={styles.currency}>CURRENCY</div>
+          <h2 className={styles.currency}>CURRENCY</h2>
           <div className={styles.flagWrapper}>
             <div>
               <Image src={Flag} alt="USA Flag" />
@@ -48,12 +48,12 @@ function Footer() {
             Transactions will be completed in Euros and a currency reference is
             available on hover.
           </p>
-        </div>
+        </section>
       </div>
-      <div className={styles.dividerContainer}>
+      <divider className={styles.dividerContainer}>
         <div className={styles.divider}></div>
-      </div>
-      <div className={styles.socialSection}>
+      </divider>
+      <section className={styles.socialSection}>
         <div>
           <h2 style={{ marginBottom: "15px" }}>mettā muse</h2>
           <p style={{ marginBottom: "10px", opacity: ".7" }}>About Us</p>
@@ -120,11 +120,11 @@ function Footer() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <div className={styles.copyright}>
         <p>Copyright © 2023 mettamuse. All rights reserved.</p>
       </div>
-    </div>
+    </footer>
   );
 }
 
