@@ -15,20 +15,23 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Appscrip-Prroduct-App",
+  title: "Appscrip-Product-App", // Page title that appears in the browser tab and search results
   description:
-    "This project is an e-commerce appscrip product page built using Next.js",
+    "This project is an e-commerce appscrip product page built using Next.js", // Brief description of the page for search engines
+
+  // Additional metadata for structured data
   other: {
     structuredData: {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      name: "Appscrip Product App",
+      "@context": "https://schema.org", // Defines the context for structured data
+      "@type": "Product", // Specifies the type of structured data
+      name: "Appscrip Product App", // Name of the product
       description: "A top-tier product from Appscript's e-commerce platform.",
       offers: {
-        "@type": "Offer",
-        priceCurrency: "USD",
-        price: "49.99",
+        "@type": "Offer", // Specifies that this is an offer
+        priceCurrency: "USD", // Currency for the price
+        price: "49.99", // Price of the product
       },
+      images: [],
     },
   },
 };

@@ -1,26 +1,28 @@
+/* Container for the entire section */
 .container {
-  background: #000000;
-  height: 610px;
-  margin-top: 30px;
-  display: flex;
-  flex-direction: column;
-  color: #ffffff;
+  background: #000000; /* Black background */
+  height: 610px; /* Fixed height */
+  margin-top: 30px; /* Space above the container */
+  display: flex; /* Flexbox layout */
+  flex-direction: column; /* Stack children vertically */
+  color: #ffffff; /* White text color */
 }
 
+/* Contact section with evenly spaced items */
 .contactSection {
-  display: flex;
-  justify-content: space-evenly;
-  padding-top: 60px;
+  display: flex; /* Flexbox layout */
+  justify-content: space-evenly; /* Even spacing between items */
+  padding-top: 60px; /* Space above the section */
 }
 
+/* Heading for subscription */
 .subscribeHeading {
   font-size: 20px;
   font-weight: 700;
-  /* line-height: 24px; */
   text-align: left;
   padding-bottom: 20px;
 }
-
+/* Description under the subscription heading */
 .subscribeDescrption {
   font-size: 16px;
   font-weight: 400;
@@ -30,121 +32,153 @@
   margin-bottom: 30px;
 }
 
+/* Style for input fields */
 .input {
   padding: 10px;
   width: 350px;
   background-color: #ffffff;
-  outline: none;
+  outline: none; /* Remove outline on focus */
   color: #000000;
   margin-right: 7px;
 }
 
+/* Subscribe button styles */
 .subscribeButton {
   padding: 10px;
-  width: 150px;
+  width: 150px; 
 }
 
+/* Contact us heading */
 .contactUS {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 24px;
-  text-align: left;
-  margin-bottom: 12px;
+  font-size: 20px; 
+  font-weight: 700; 
+  line-height: 24px; 
+  text-align: left; 
+  margin-bottom: 12px; 
 }
 
+/* Currency text style */
 .currency {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 24px;
-  text-align: left;
-  margin-top: 20px;
+  font-size: 20px; 
+  font-weight: 700; 
+  line-height: 24px; 
+  text-align: left; 
+  margin-top: 20px; 
 }
 
+/* Transaction description style */
 .transDescription {
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 14.4px;
-  text-align: left;
-  margin-top: 12px;
-  opacity: 0.7;
+  font-size: 12px; 
+  font-weight: 400; 
+  line-height: 14.4px; 
+  text-align: left; 
+  margin-top: 12px; 
+  opacity: 0.7; 
 }
 
+/* Wrapper for flags */
 .flagWrapper {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  margin-top: 15px;
+  display: flex; 
+  align-items: center; 
+  gap: 5px; 
+  margin-top: 15px; 
 }
 
+/* Style for round indicators */
 .round {
-  width: 6px;
-  height: 6px;
-  border-radius: 100px;
-  background: #ffffff;
+  width: 6px; 
+  height: 6px; 
+  border-radius: 100px; 
+  background: #ffffff; 
 }
 
+/* Container for divider */
 .dividerContainer {
-  display: flex;
-  justify-content: center;
+  display: flex; 
+  justify-content: center; 
 }
 
+/* Divider line style */
 .divider {
-  width: 1100px;
-  border: 1px 0px 0px 0px;
-  border: 1px solid #ffffff;
-  margin-top: 20px;
+  width: 1100px; 
+  border: 1px solid #ffffff; /* White border for the line */
+  margin-top: 20px; 
 }
-
+/* Social media section layout */
 .socialSection {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 30px;
+  display: flex; 
+  justify-content: space-around; 
+  margin-top: 30px; 
 }
 
+/* Styles for social media icons */
 .socialIcon {
-  display: flex;
-  gap: 10px;
-  margin-top: 20px;
+  display: flex; 
+  gap: 10px; 
+  margin-top: 20px; 
 }
 
+/* Wrapper for cards */
 .cardWrapper {
-  display: flex;
-  gap: 5px;
-  margin-top: 15px;
+  display: flex; 
+  gap: 5px; 
+  margin-top: 15px; 
 }
 
+/* Copyright text style */
 .copyright {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 16.8px;
-  text-align: center;
-  padding-top: 30px;
-  opacity: 0.7;
+  font-size: 14px; 
+  font-weight: 400; 
+  line-height: 16.8px; 
+  text-align: center; 
+  padding-top: 30px; 
+  opacity: 0.7; 
 }
 
+/* Mobile Styles (up to 768px) */
 @media (max-width: 768px) {
   .container {
-    height: auto;
-    padding-left: 10px;
+    height: auto; /* Allow height to adjust */
+    padding-left: 10px; 
   }
   .contactSection {
-    display: flex;
-    flex-direction: column;
+    display: flex; 
+    flex-direction: column; /* Stack items vertically */
   }
   .input {
-    width: 250px;
+    width: 250px; 
   }
   .subscribeButton {
     width: 100px;
   }
   .wrapper {
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
   }
   .socialSection {
-    display: flex;
-   flex-direction: column;
+    display: flex; 
+    flex-direction: column; 
   }
-  .marginTop{
-    margin-top: 20px;
+  .marginTop {
+    margin-top: 20px; 
+  }
+}
+
+/* Tablet Styles (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .contactSection {
+    display: flex; 
+    flex-direction: row; 
+  }
+  .input {
+    width: 250px; 
+    margin-bottom: 5px; 
+  }
+  .subscribeButton {
+    width: 150px; 
+  }
+  .socialSection {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
   }
 }

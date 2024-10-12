@@ -1,11 +1,13 @@
+/* Navigation Container */
 .navContainer {
   display: flex;
   flex-direction: column;
   height: 150px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
-    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    /* Subtle shadow for depth */ rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; /* Lighter shadow for softer look */
 }
 
+/* NavBar Wrapper */
 .navWrapper {
   display: flex;
   justify-content: space-around;
@@ -29,18 +31,33 @@
   cursor: pointer;
 }
 
+/* Mobile Styles (up to 768px) */
 @media (max-width: 768px) {
   .navWrapper {
     width: 100%;
     gap: 0px;
     align-items: center;
   }
+  .detailsWrapper {
+    width: 100%;
+    gap: 10px;
+    font-size: 10px;
+    font-weight: 800;
+  }
+}
 
+/* Tablet Styles (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .navWrapper {
+    width: 100%;
+    gap: 0px;
+    align-items: center;
+  }
   .detailsWrapper {
     width: 100%;
     gap: 10px;
     align-items: center;
-    font-size: 10px;
+    font-size: 18px;
     font-weight: 800;
   }
 }
